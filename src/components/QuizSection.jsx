@@ -1,8 +1,10 @@
 import React from 'react'
 
-function QuizSection() {
+function QuizSection({categoryName}) {
   return (
-    <div>QuizSection</div>
+    <div className='className="flex  items-center border-b-2 p-3 font-sans font-bold'>
+        <div>Category Name : {categoryName}</div>
+    </div>
   )
 }
 
